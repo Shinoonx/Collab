@@ -27,7 +27,7 @@ class MainTest {
 
     @Test
     void testSum() {
-        assertTrue(Main.sum(numero_Par));
-        assertFalse(Main.sum(numero_inpar));
+        assertTrue(Main.esPar(numero_Par));
+        assertFalse(Main.esPar(numero_inpar));
     }
 }
